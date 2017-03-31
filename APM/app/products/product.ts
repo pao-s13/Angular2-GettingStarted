@@ -9,7 +9,7 @@ export interface IProduct {
     imageUrl: string;
 }
 
-/*Example only */
+/*Example only 
 export class Product implements IProduct {
     constructor(public productId: number,
     public productName: string,
@@ -24,4 +24,4 @@ export class Product implements IProduct {
         return this.price - (this.price * percent / 100);
     }
 
-}
+}*/
